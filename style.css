@@ -1,25 +1,54 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 @import url(http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911);
-
 * {
-	margin: 0;
-	font-family: 'Goudy Bookletter 1911', serif;
+  margin: 0;
+  font-family: 'Goudy Bookletter 1911', serif;
+  background-color: #000000;
 }
-
 header {
-	width: 100%;
-	height: 240px;
-	background-color: black;
+  width: 100%;
+  height: 240px;
+  display: block;
 }
-
 header #header-left {
-	color: white;
-	font-family: 'Raleway', sans-serif;
-	font-size: 6em;
-	vertical-align: middle;
-	float: left;
+  color: #cccccc;
+  font-family: 'Raleway', sans-serif;
+  font-size: 6em;
+  vertical-align: middle;
+  float: left;
+  width: -326%;
 }
-
 header #header-right {
-	float: left;
+  float: left;
+}
+.menu-bar {
+  border-top: 2px solid #e15119;
+  background-color: #98b1c4;
+  height: 50px;
+  width: 100%;
+}
+.menu-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.menu-bar ul li {
+  float: left;
+  font-size: 40px;
+}
+.menu-bar ul li a:link,
+.menu-bar ul li a:visited {
+  display: block;
+  width: 250px;
+  font-family: 'Raleway', sans-serif;
+  color: #cccccc;
+  background-color: #2f4e6f;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+}
+.menu-bar ul li a:hover,
+.menu-bar ul li a:active {
+  background-color: #20354b;
 }
