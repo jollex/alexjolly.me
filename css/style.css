@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Gabriela);
 
 body {
-    background-image: url('background.jpg');
+    background-image: url('../res/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #2D4C32;
