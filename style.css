@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+@import url(https://fonts.googleapis.com/css?family=Gabriela);
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2d4c32;
+    margin: 0;
+}
+
+.header-background {
+    background: rgb(29, 29, 29);
+    background: rgba(29, 29, 29, 0.7);
+    text-align: center;
+}
+
+.header {
+    display: inline-block;
+}
+
+.name {
+    font-family: Cookie;
+    font-size: 6em;
+    color: #EEEEEE;
+    margin: 0.25em 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    font-family: Gabriela;
+    font-size: 2em;
+    color: #DDDDDD;
+    width: 6em;
+    border-top: 1px solid;
+    border-color: #D13644;
+    padding: 0.1em 0;
+}
+
+.link:hover {
+    background-color: #D13644;
+}
