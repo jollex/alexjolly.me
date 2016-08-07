@@ -5,7 +5,7 @@ body {
     background-image: url('background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #2d4c32;
+    background-color: #2D4C32;
     margin: 0;
 }
 
@@ -51,4 +51,40 @@ body {
 
 .link:hover {
     background-color: #D13644;
+}
+
+.content {
+    text-align: center;
+}
+
+.about-me {
+    display: inline-block;
+    width: 50%;
+    font-family: Gabriela;
+    font-size: 1.5em;
+    background: rgb(29, 29, 29);
+    background: rgba(29, 29, 29, 0.7);
+    margin: 4em 0;
+    padding: 1em;
+    color: #DDDDDD;
+}
+
+.about-me a {
+    color: #D13644;
+}
+
+.about-me a:link, .about-me a:visited {
+    text-decoration: none;
+}
+
+.about-me a:hover, .about-me a:active {
+    text-decoration: underline;
+}
+
+.resume {
+    background: rgb(29, 29, 29);
+    background: rgba(29, 29, 29, 0.7);
+    display: inline-block;
+    margin: 2em;
+    padding: 1em;
 }
